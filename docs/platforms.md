@@ -6,7 +6,7 @@
 |----------|---------|-----------------|-----------------|
 | **Android** | `android` | Google libphonenumber | libphonenumber |
 | **JVM Desktop** | `jvm` | Google libphonenumber | libphonenumber |
-| **iOS** | `iosArm64`, `iosSimulatorArm64`, `iosX64` | Built-in per-country rules | Built-in patterns |
+| **iOS** | `iosArm64`, `iosSimulatorArm64` | Built-in per-country rules | Built-in patterns |
 | **JS Browser** | `js(IR)` browser | Built-in per-country rules | Built-in patterns |
 | **WasmJS Browser** | `wasmJs` browser | Built-in per-country rules | Built-in patterns |
 
