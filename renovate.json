@@ -75,6 +75,13 @@
       ]
     },
     {
+      "description": "core-ktx 1.19.0+ requires compileSdk 37; held back to avoid forcing that on library consumers",
+      "matchPackageNames": [
+        "androidx.core:core-ktx"
+      ],
+      "allowedVersions": "<1.19.0"
+    },
+    {
       "groupName": "test dependencies",
       "matchPackagePatterns": [
         "com.google.truth:truth",
