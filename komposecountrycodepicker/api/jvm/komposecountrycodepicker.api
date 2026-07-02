@@ -4,8 +4,8 @@ public abstract interface annotation class com/joelkanyi/jcomposecountrycodepick
 public final class com/joelkanyi/jcomposecountrycodepicker/component/ComposableSingletons$KomposeCountryCodePickerKt {
 	public static final field INSTANCE Lcom/joelkanyi/jcomposecountrycodepicker/component/ComposableSingletons$KomposeCountryCodePickerKt;
 	public fun <init> ()V
-	public final fun getLambda$-735772604$komposecountrycodepicker ()Lkotlin/jvm/functions/Function3;
-	public final fun getLambda$1216832006$komposecountrycodepicker ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-735772604$io_github_joelkanyi_komposecountrycodepicker ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$1216832006$io_github_joelkanyi_komposecountrycodepicker ()Lkotlin/jvm/functions/Function2;
 }
 
 public abstract interface class com/joelkanyi/jcomposecountrycodepicker/component/CountryCodePicker {

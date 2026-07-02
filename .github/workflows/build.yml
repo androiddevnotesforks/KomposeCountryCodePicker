@@ -131,5 +131,4 @@ jobs:
           ./gradlew
           :komposecountrycodepicker:compileKotlinIosArm64
           :komposecountrycodepicker:compileKotlinIosSimulatorArm64
-          :komposecountrycodepicker:compileKotlinIosX64
           --stacktrace
