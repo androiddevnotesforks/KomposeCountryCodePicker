@@ -62,7 +62,8 @@ jobs:
       - name: Make gradle executable
         run: chmod +x ./gradlew
 
-      - uses: gradle/gradle-build-action@v3
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Deploy to Maven Central
         run: ./gradlew publishAggregationToCentralPortal --no-configuration-cache --stacktrace
